@@ -14,7 +14,7 @@ function Pagina2(){
             <h1 className="Texto">Receitas</h1>
             <h4 className="Text01">O que deseja ↓</h4>
             
-            <Link className="Link" to={"#"}>
+            <Link className="Link" to={"/Doce"}>
             <div className="caixa">
             <img className='mascote' src={Doces} title='Doce'/>
             <h3>DOCES</h3>

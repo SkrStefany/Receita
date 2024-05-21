@@ -1,5 +1,6 @@
 
 .Pagina {
+    height: 100vh;
     overflow: hidden;
     background: linear-gradient(120deg, #000000, #19caf1);
     background-size: 400% 400%;
