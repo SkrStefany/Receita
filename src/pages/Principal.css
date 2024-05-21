@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cinzel:wght@400..900&display=swap'); 
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cinzel", serif;
+  
+}
+ .App {
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #000000, #19caf1);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 51s ease infinite;
+  -moz-animation: AnimationName 51s ease infinite;
+  animation: AnimationName 51s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+.TituloPrincipal {
+  color: white;
+  text-align: center;
+}
+.TituloPrincipal1{
+  color: white;
+  text-align: center;
+  padding-right: 20px;
+}
+.Mascote1 {
+  height: 260px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 90px;
+}
+.Botao{
+  height: 30px;
+  width: 120px;
+  border-radius: 50px;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  
+}
+.casaBotao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.Link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
